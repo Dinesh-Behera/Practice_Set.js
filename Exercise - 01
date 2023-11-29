@@ -1,0 +1,17 @@
+Q1. Print all even numbers from 0 - 100
+
+    for(i = 0 ; i<= 100 ; i++){
+       if(i % 2 === 0){
+          console.log(i);
+      }
+  }
+
+// Q2.  Create a game where you start with any random game number. Ask the user to keep guessing the game number the user enter the correct value.
+
+let gameNum = 25;
+let userNum = prompt("Guess the game number");
+do{
+}while(userNum === gameNum){
+    userNum = prompt("you entered a wrong game number");
+}
+console.log("congrats ! you enter the right number");
